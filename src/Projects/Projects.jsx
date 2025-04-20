@@ -7,37 +7,16 @@ const Projects = () => {
   // Sample project data - replace with your actual project information
   const projects = [
     {
-      id: 8,
-      title: "Animal Welfare Event",
-      image: "/projects/animalwelfare.png",
-      description: "Through powerful presentations, attendees were confronted with the harsh realities of animal mistreatment across various industries. Mr. Arvind did not shy away from showcasing the brutality and negligence that animals face, particularly in sectors like agriculture and fashion. This presentation served as a wake -up call, urging attendees to reflect on their roles within a consumer society and to advocate for systemic change and accountability. Key faculty members, including NSS Coordinator Dr. Dheeraj Sharma, Dr. Than Singh Saini, Dr. Love Kumar and Dr. Shweta Rathi, were present during the inspiring and motivating event. Mr. Arvind equipped the audience with knowledge about everyday products that perpetuate animal cruelty and inspired them to explore compassionate alternatives. His advocacy for a vegan lifestyle was not just about dietary changes; it was about cultivating an ethic of compassion that permeates all aspects of life, from consumer habits to daily interactions.​",
-      date: "September 15, 2024"
-    },
-    {
-      id: 3,
-      title: "Blood Donation Campaign",
-      image: "/projects/bludon.png",
-      description: "On the occasion of the blood donation camp, Professor Dixit Garg emphasized the importance of blood donation, stating that blood cannot be produced in a scientific laboratory; it can only be developed within the human body. Hence, the significance of donating blood increases manifold. The NSS volunteers were honored with certificates of appreciation from the Haryana State Blood Transfusion Council for their dedication and support. Dr. Than Singh Saini concluded the event by expressing gratitude to all the donors, the NSS volunteer team, the LNJP Hospital staff, the Indian Red Cross Society Haryana, and the doctors and staff members from the NIT Health Center for making the camp a success. The event was graced by the presence of Professor Dixit Garg, Professor S.M. Gupta, Professor Arvind Sharma, SMO Dr. Minati Raut, Dr. Vijay Verma, Dr. Than Singh Saini, Dr. Shweta Rathi, Dr. Love Kumar, Dr. Chandrashekhar, and student leader Divyanshi gorai, Abhishek kaushik, Abhishek sharma.​",
-      date: "April 6, 2024"
-    },
-    {
-      id: 4,
-      title: "Ambdekar Jayanti",
-      image: "/projects/ambedkar.png",
-      description: " On the occasion of the birth anniversary of Bharat Ratna Dr. Bhim Rao Ambedkar, NIT Kurukshetra hosted a special event to honor his legacy. Dr. Ambedkar, the principal architect of the Indian Constitution, was a pioneering figure in the fight for social justice and equality. His tireless efforts to uplift marginalized communities and challenge social discrimination left an indelible mark on Indian society.The event began with a floral tribute to Dr. Ambedkar by the Hon'ble Director Dr. V.P. Singh, Hon'ble Dean Student Welfare Dr. Dixit Garg, and chief guest Dr. Amita Gupta. In their speeches, the dignitaries highlighted Dr. Ambedkar's role in shaping the constitutional framework of India and his relentless pursuit of social reform. Dr. Ambedkar's famous words, Cultivation of mind should be the ultimate aim of human existence were a central theme throughout the event, inspiring attendees to continue striving for intellectual growth and equality. Divyanshi gorai (General Secretary) played an important role in succesfully conducting the event.",
-      date: "April 14, 2024"
-    },
-    {
-      id: 6,
-      title: "NSS Anti Ragging Event",
-      image: "/projects/nssanti.png",
-      description: "Under the leadership of Dean Student Welfare, Prof. Dixit Garg, and guidance of Prof. Vijay Verma, the NSS unit is actively participating in Anti-Ragging Month activities. Key initiatives include setting up a selfie stand at the old administrative building to raise awareness to promote community welfare, and displaying anti-ragging posters across the campus. Through these efforts, NSS aims to foster a spirit of brotherhood and support a safe, inclusive campus environment.​",
-      date: "August 14, 2024"
+      id: 5,
+      title: "Mahavir Jayanti AND Vaisakhi Celebration", 
+      image: "/projects/mh.png",
+      description: "NSS NIT Kurukshetra celebrated Mahavir Jayanti and Vaishakhi on April 15th in Jubilee Hall with cultural performances, community spirit, and festivity. Led by Dr. Dheeraj Kumar Sharma and Dr. Pratishtha Verma, the event featured dances, music, skits, and prize distribution. The event was anchored by Abhishek Kaushik and Riya Singh. Student leaders and volunteers, including Isha Gahlawat, Divyanshi Gorai, Divyam Raj, Abhishek Kaushik, Abhishek Sharma and Nitin Raja Yadav, were acknowledged for their dedication, making the event a vibrant success promoting unity and service.​",
+      date: "April 15, 2025"
     },
     {
       id: 2,
       title: "Black Day Celebration",
-      image: "/projects/blackday.png",
+      image: "/projects/blackday.png", 
       description: "On 14 February, NIT Kurukshetra's NSS and NCC units commemorated Black Day to honor the 40 CRPF martyrs of the 2019 Pulwama attack. The tribute began with a formal address and a moment of silence, followed by patriotic speeches. Chief Guest Prof. (Dr.) Dixit Garg emphasized remembrance, sacrifice, and national service. Joint Secretary Divyam Raj gave the speech emphasizing the importance of soldiers for the Nation. A Marathon for Martyrs, led by NCC cadets, concluded the event. With participation from 250 students and smooth coordination by NSS leaders, the event promoted unity, patriotism, and deep respect for India's brave soldiers.​",
       date: "February 14, 2025"
     },
@@ -49,6 +28,13 @@ const Projects = () => {
       date: "January 15, 2025"
     },
     {
+      id: 10,
+      title: "7 Day Camp",
+      image: "/projects/7d.png",
+      description: "From 12th to 18th December 2024, the NSS unit of NIT Kurukshetra organized a 7-day camp in Sunheri Khalsa Village, engaging in various community service activities. Volunteers conducted educational programs like drawing and essay competitions, tree plantation, health awareness sessions, and career guidance. They also promoted social issues like women's hygiene and water conservation. Cultural activities included yoga, rangoli making, and movie screenings. The camp focused on community development, environmental sustainability, and youth empowerment. Volunteers and residents alike contributed to creating a positive impact, with the team returning to NIT Kurukshetra each day feeling accomplished.​",
+      date: "December 12, 2024"
+    },
+    {
       id: 9,
       title: "Cleanliness Campaign",
       image: "/projects/cc.png",
@@ -56,11 +42,11 @@ const Projects = () => {
       date: "October 1, 2024"
     },
     {
-      id: 5,
-      title: "Mahavir Jayanti AND Vaisakhi Celebration",
-      image: "/projects/mh.png",
-      description: "NSS NIT Kurukshetra celebrated Mahavir Jayanti and Vaishakhi on April 15th in Jubilee Hall with cultural performances, community spirit, and festivity. Led by Dr. Dheeraj Kumar Sharma and Dr. Pratishtha Verma, the event featured dances, music, skits, and prize distribution. The event was anchored by Abhishek Kaushik and Riya Singh. Student leaders and volunteers, including Isha Gahlawat, Divyanshi Gorai, Divyam Raj, Abhishek Kaushik, Abhishek Sharma and Nitin Raja Yadav, were acknowledged for their dedication, making the event a vibrant success promoting unity and service.​",
-      date: "April 15, 2025"
+      id: 8,
+      title: "Animal Welfare Event",
+      image: "/projects/animalwelfare.png",
+      description: "Through powerful presentations, attendees were confronted with the harsh realities of animal mistreatment across various industries. Mr. Arvind did not shy away from showcasing the brutality and negligence that animals face, particularly in sectors like agriculture and fashion. This presentation served as a wake -up call, urging attendees to reflect on their roles within a consumer society and to advocate for systemic change and accountability. Key faculty members, including NSS Coordinator Dr. Dheeraj Sharma, Dr. Than Singh Saini, Dr. Love Kumar and Dr. Shweta Rathi, were present during the inspiring and motivating event. Mr. Arvind equipped the audience with knowledge about everyday products that perpetuate animal cruelty and inspired them to explore compassionate alternatives. His advocacy for a vegan lifestyle was not just about dietary changes; it was about cultivating an ethic of compassion that permeates all aspects of life, from consumer habits to daily interactions.​",
+      date: "September 15, 2024"
     },
     {
       id: 7,
@@ -70,11 +56,25 @@ const Projects = () => {
       date: "September 15, 2024"
     },
     {
-      id: 10,
-      title: "7 Day Camp",
-      image: "/projects/7d.png",
-      description: "From 12th to 18th December 2024, the NSS unit of NIT Kurukshetra organized a 7-day camp in Sunheri Khalsa Village, engaging in various community service activities. Volunteers conducted educational programs like drawing and essay competitions, tree plantation, health awareness sessions, and career guidance. They also promoted social issues like women’s hygiene and water conservation. Cultural activities included yoga, rangoli making, and movie screenings. The camp focused on community development, environmental sustainability, and youth empowerment. Volunteers and residents alike contributed to creating a positive impact, with the team returning to NIT Kurukshetra each day feeling accomplished.​",
-      date: "December 12, 2024"
+      id: 6,
+      title: "NSS Anti Ragging Event",
+      image: "/projects/nssanti.png",
+      description: "Under the leadership of Dean Student Welfare, Prof. Dixit Garg, and guidance of Prof. Vijay Verma, the NSS unit is actively participating in Anti-Ragging Month activities. Key initiatives include setting up a selfie stand at the old administrative building to raise awareness to promote community welfare, and displaying anti-ragging posters across the campus. Through these efforts, NSS aims to foster a spirit of brotherhood and support a safe, inclusive campus environment.​",
+      date: "August 14, 2024"
+    },
+    {
+      id: 4,
+      title: "Ambdekar Jayanti",
+      image: "/projects/ambedkar.png",
+      description: " On the occasion of the birth anniversary of Bharat Ratna Dr. Bhim Rao Ambedkar, NIT Kurukshetra hosted a special event to honor his legacy. Dr. Ambedkar, the principal architect of the Indian Constitution, was a pioneering figure in the fight for social justice and equality. His tireless efforts to uplift marginalized communities and challenge social discrimination left an indelible mark on Indian society.The event began with a floral tribute to Dr. Ambedkar by the Hon'ble Director Dr. V.P. Singh, Hon'ble Dean Student Welfare Dr. Dixit Garg, and chief guest Dr. Amita Gupta. In their speeches, the dignitaries highlighted Dr. Ambedkar's role in shaping the constitutional framework of India and his relentless pursuit of social reform. Dr. Ambedkar's famous words, Cultivation of mind should be the ultimate aim of human existence were a central theme throughout the event, inspiring attendees to continue striving for intellectual growth and equality. Divyanshi gorai (General Secretary) played an important role in succesfully conducting the event.",
+      date: "April 14, 2024"
+    },
+    {
+      id: 3,
+      title: "Blood Donation Campaign",
+      image: "/projects/bludon.png",
+      description: "On the occasion of the blood donation camp, Professor Dixit Garg emphasized the importance of blood donation, stating that blood cannot be produced in a scientific laboratory; it can only be developed within the human body. Hence, the significance of donating blood increases manifold. The NSS volunteers were honored with certificates of appreciation from the Haryana State Blood Transfusion Council for their dedication and support. Dr. Than Singh Saini concluded the event by expressing gratitude to all the donors, the NSS volunteer team, the LNJP Hospital staff, the Indian Red Cross Society Haryana, and the doctors and staff members from the NIT Health Center for making the camp a success. The event was graced by the presence of Professor Dixit Garg, Professor S.M. Gupta, Professor Arvind Sharma, SMO Dr. Minati Raut, Dr. Vijay Verma, Dr. Than Singh Saini, Dr. Shweta Rathi, Dr. Love Kumar, Dr. Chandrashekhar, and student leader Divyanshi gorai, Abhishek kaushik, Abhishek sharma.​",
+      date: "April 6, 2024"
     }
   ];
 
@@ -86,11 +86,11 @@ const Projects = () => {
   // Get unique categories
   const categories = ["All", ...new Set(projects.map(project => project.category))];
 
-  // Filter projects based on selected category and sort by ID
+  // Filter projects based on selected category and sort by date
   const filteredProjects = (filterCategory === "All" 
     ? [...projects] 
     : projects.filter(project => project.category === filterCategory))
-    .sort((a, b) => a.id - b.id); // Sort by ID in ascending order
+    .sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort by date in descending order
 
   // Open modal with selected project
   const openModal = (project) => {
