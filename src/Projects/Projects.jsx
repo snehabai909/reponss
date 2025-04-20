@@ -39,14 +39,14 @@ const Projects = () => {
       title: "Black Day Celebration",
       image: "/projects/blackday.png",
       description: "On 14 February, NIT Kurukshetra's NSS and NCC units commemorated Black Day to honor the 40 CRPF martyrs of the 2019 Pulwama attack. The tribute began with a formal address and a moment of silence, followed by patriotic speeches. Chief Guest Prof. (Dr.) Dixit Garg emphasized remembrance, sacrifice, and national service. Joint Secretary Divyam Raj gave the speech emphasizing the importance of soldiers for the Nation. A Marathon for Martyrs, led by NCC cadets, concluded the event. With participation from 250 students and smooth coordination by NSS leaders, the event promoted unity, patriotism, and deep respect for India's brave soldiers.​",
-      date: "February 14, 2024"
+      date: "February 14, 2025"
     },
     {
       id: 1,
       title: "Makar Sankranti Celebration",
       image: "/projects/sank.png",
       description: "On 14 January 2025, NSS NIT Kurukshetra celebrated Makar Sankranti with vibrant cultural performances, community participation, and festive spirit. The event featured a lamp-lighting ceremony, speeches by Prof. Dixit Garg and faculty, and engaging performances by students and children. Divyanshi gorai (NSS general secrecratory) ensured smooth execution of the event with her team. The celebration highlighted themes of gratitude, unity, and tradition, concluding with a prize ceremony and enthusiastic audience applause.​",
-      date: "January 15, 2024"
+      date: "January 15, 2025"
     },
     {
       id: 9,
@@ -60,7 +60,7 @@ const Projects = () => {
       title: "Mahavir Jayanti AND Vaisakhi Celebration",
       image: "/projects/mh.png",
       description: "NSS NIT Kurukshetra celebrated Mahavir Jayanti and Vaishakhi on April 15th in Jubilee Hall with cultural performances, community spirit, and festivity. Led by Dr. Dheeraj Kumar Sharma and Dr. Pratishtha Verma, the event featured dances, music, skits, and prize distribution. The event was anchored by Abhishek Kaushik and Riya Singh. Student leaders and volunteers, including Isha Gahlawat, Divyanshi Gorai, Divyam Raj, Abhishek Kaushik, Abhishek Sharma and Nitin Raja Yadav, were acknowledged for their dedication, making the event a vibrant success promoting unity and service.​",
-      date: "April 15, 2024"
+      date: "April 15, 2025"
     },
     {
       id: 7,
