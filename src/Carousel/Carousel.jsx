@@ -19,7 +19,7 @@ const Carousel = () => {
       image: "../../carousel/6.jpg"
     },
     {
-      name: "Abhishek Koushik",
+      name: "Abhishek Kaushik",
       designation: "Additional Seceratory",
       image: "../../carousel/7.png"
     },
