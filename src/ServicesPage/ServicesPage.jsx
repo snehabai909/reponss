@@ -134,7 +134,7 @@ const ServicesPage = () => {
                       <img 
                         src={service.image} 
                         alt={service.title} 
-                        className="w-full h-64 md:h-80 object-cover"
+                        className="w-full h-64 md:h-80 object-fit"
                       />
                     </div>
                     {/* Transparent gradient overlay */}
@@ -161,13 +161,7 @@ const ServicesPage = () => {
                     <p className="text-lg text-gray-700 leading-relaxed mb-6">
                       {service.description}
                     </p>
-                    <motion.button
-                      className={`px-6 py-3 bg-gradient-to-r ${service.color} text-white font-medium rounded-md shadow-md hover:shadow-lg transition-all duration-300`}
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.98 }}
-                    >
-                      Learn More
-                    </motion.button>
+                   
                   </motion.div>
                 </div>
               </div>
